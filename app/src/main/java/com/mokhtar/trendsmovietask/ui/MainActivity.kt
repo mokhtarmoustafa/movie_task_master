@@ -1,7 +1,8 @@
-package com.mokhtar.trendsmovietask
+package com.mokhtar.trendsmovietask.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.mokhtar.trendsmovietask.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
