@@ -5,6 +5,7 @@ import androidx.databinding.BindingAdapter
 import coil.load
 import coil.transform.RoundedCornersTransformation
 import com.mokhtar.trendsmovietask.R
+import com.mokhtar.trendsmovietask.util.ConfigurationStore
 import com.mokhtar.trendsmovietask.util.IMAGE_BASE_URL
 
 
@@ -30,11 +31,10 @@ fun ImageView.loadImageUrl(base_url: String, file_path: String, image_size: Stri
 
 @BindingAdapter("file_path")
 fun ImageView.loadImageUrl(file_path: String) {
-    if(!file_path.isNullOrEmpty())
-    {
-        val completeUrl = "$IMAGE_BASE_URL$file_path"
 
-        println("ImageView - $completeUrl")
+
+        val baseUrl = ConfigurationStore.getConfigurationData().images.secureBaseUrl
+        val completeUrl = "${baseUrl}original$file_path"
 
         load(completeUrl)
         {
@@ -43,6 +43,5 @@ fun ImageView.loadImageUrl(file_path: String) {
             crossfade(600)
             scale(coil.size.Scale.FILL)
         }
-    }
 
 }
