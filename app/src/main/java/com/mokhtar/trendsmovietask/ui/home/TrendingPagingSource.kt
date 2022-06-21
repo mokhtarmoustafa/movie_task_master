@@ -2,7 +2,7 @@ package com.mokhtar.trendsmovietask.ui.home
 
 import androidx.paging.PagingSource
 import androidx.paging.PagingState
-import com.mokhtar.androidmoviestask.data.remote.NetworkDataSourceImp
+import com.mokhtar.trendsmovietask.data.remote.NetworkDataSourceImp
 import com.mokhtar.androidmoviestask.data.remote.model.movie.Movie
 import retrofit2.HttpException
 import java.io.IOException

@@ -3,7 +3,7 @@ package com.mokhtar.trendsmovietask.data.remote.repository
 import androidx.paging.Pager
 import androidx.paging.PagingConfig
 import com.mokhtar.trendsmovietask.data.remote.NetworkController
-import com.mokhtar.androidmoviestask.data.remote.NetworkDataSourceImp
+import com.mokhtar.trendsmovietask.data.remote.NetworkDataSourceImp
 import com.mokhtar.androidmoviestask.data.remote.model.configuration.ConfigurationResponse
 import com.mokhtar.androidmoviestask.data.remote.model.movie.MoviesResponse
 import com.mokhtar.trendsmovietask.data.local.dao.MovieDao

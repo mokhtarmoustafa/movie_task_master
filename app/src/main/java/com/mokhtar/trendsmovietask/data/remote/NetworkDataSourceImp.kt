@@ -1,8 +1,9 @@
-package com.mokhtar.androidmoviestask.data.remote
+package com.mokhtar.trendsmovietask.data.remote
 
-import com.mokhtar.androidmoviestask.data.remote.api.MoviesService
 import com.mokhtar.androidmoviestask.data.remote.model.configuration.ConfigurationResponse
 import com.mokhtar.androidmoviestask.data.remote.model.movie.MoviesResponse
+import com.mokhtar.trendsmovietask.data.remote.NetworkDataSource
+import com.mokhtar.trendsmovietask.data.remote.api.MoviesService
 import retrofit2.Response
 import javax.inject.Inject
 

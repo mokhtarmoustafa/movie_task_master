@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/FL/Yassir/latest/app/src/main/res/font/courgette.xml" value="0.21487179487179486" />
         <entry key="..\:/FL/Yassir/latest/app/src/main/res/layout/activity_main.xml" value="0.17395833333333333" />
+        <entry key="..\:/FL/Yassir/latest/app/src/main/res/layout/fragment_details.xml" value="0.1" />
         <entry key="..\:/FL/Yassir/latest/app/src/main/res/layout/home_fragment.xml" value="0.18802083333333333" />
         <entry key="..\:/FL/Yassir/latest/app/src/main/res/layout/movies_list_item.xml" value="0.18802083333333333" />
       </map>
